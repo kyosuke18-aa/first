@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: none;
+}
+.body{
+    background: rgba(93, 217, 103, 0.712);
+    border: 4px solid black;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.form{
+    text-align: center;
+    position: absolute;
+    border-radius: 50px;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%,-50%);
+    padding: 30px;
+    background-color: rgb(164, 236, 128);
+    width: 30%;
+}
+
+.form p{
+    padding: 15px;
+}
+
+.login{
+    text-align: center;
+    position: absolute;
+    border-radius: 50px;
+    top: 50%;
+    left: 90%;
+    transform: translate(-90%,-50%);
+    padding: 30px;
+    background-color: rgb(164, 236, 128);
+    width: 30%;
+}
+
+.login p{
+    padding: 15px;
+}
